@@ -1,3 +1,13 @@
+board = ["-", "-", "-",
+         "-", "-", "-",
+         "-", "-", "-"]
+
+game_still_going = True
+
+winner = None
+
+current_player = "X"
+
 def play_game():
 
     display_board()
